@@ -45,7 +45,7 @@
             //Set .select2() menu to select#project_quick_jump_box for Ctrl+Alt+P program events handle
             $('select#project_quick_jump_box').select2({
                 escapeMarkup: noFormat,
-                minimumResultsForSearch: Infinity,
+                minimumResultsForSearch: 7,
                 width: "element"
             });
             $('span.select2').width($('span.select2').width()+25);		//width fix
